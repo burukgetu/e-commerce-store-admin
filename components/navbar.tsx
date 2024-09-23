@@ -5,7 +5,7 @@ import StoreSwitcher from "@/components/store-switcher";
 import { auth } from "@clerk/nextjs/server";
 import { redirect } from "next/navigation";
 import prismadb from "@/lib/prismadb";
-import { ThemeToggle } from "./theme-toggle";
+// import { ThemeToggle } from "./theme-toggle";
 
 const Navbar = async () => {
     const { userId } = auth();
